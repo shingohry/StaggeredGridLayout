@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="q4d-5m-8l3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Posts View Controller-->
+        <scene sceneID="4HG-eg-0rI">
+            <objects>
+                <collectionViewController id="q4d-5m-8l3" customClass="SGLPostsViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="dHT-Go-PnU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.28627450980392155" blue="0.36862745098039218" alpha="1" colorSpace="calibratedRGB"/>
+                        <collectionViewLayout key="collectionViewLayout" id="sO2-pg-s2n" customClass="SGLStaggeredGridLayout"/>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AnnotatedPhotoCell" id="spQ-Vk-1yE" customClass="SGLPostCell">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view clipsSubviews="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="I1D-Gc-INq">
+                                            <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LgB-02-txS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="180" height="120"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="120" id="MSy-Ex-GWH"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Hc-iX-acu">
+                                                    <rect key="frame" x="4" y="124" width="172" height="52"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <color key="textColor" red="0.20392156862745098" green="0.28627450980392155" blue="0.36862745098039218" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="2Hc-iX-acu" firstAttribute="leading" secondItem="I1D-Gc-INq" secondAttribute="leading" constant="4" id="1WG-KK-jE1"/>
+                                                <constraint firstAttribute="trailing" secondItem="LgB-02-txS" secondAttribute="trailing" id="6ah-se-Tlb"/>
+                                                <constraint firstAttribute="trailing" secondItem="2Hc-iX-acu" secondAttribute="trailing" constant="4" id="JJD-0Z-9vT"/>
+                                                <constraint firstAttribute="bottom" secondItem="2Hc-iX-acu" secondAttribute="bottom" constant="4" id="fqG-s2-UZV"/>
+                                                <constraint firstItem="2Hc-iX-acu" firstAttribute="top" secondItem="LgB-02-txS" secondAttribute="bottom" priority="750" constant="4" id="qqG-jf-Vqe"/>
+                                                <constraint firstItem="LgB-02-txS" firstAttribute="leading" secondItem="I1D-Gc-INq" secondAttribute="leading" id="vw8-BO-XlW"/>
+                                                <constraint firstItem="LgB-02-txS" firstAttribute="top" secondItem="I1D-Gc-INq" secondAttribute="top" id="yzV-89-FZf"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <real key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="I1D-Gc-INq" secondAttribute="bottom" id="775-4f-T5d"/>
+                                    <constraint firstAttribute="trailing" secondItem="I1D-Gc-INq" secondAttribute="trailing" id="a5o-N4-r2X"/>
+                                    <constraint firstItem="I1D-Gc-INq" firstAttribute="leading" secondItem="spQ-Vk-1yE" secondAttribute="leading" id="dzg-By-tOF"/>
+                                    <constraint firstItem="I1D-Gc-INq" firstAttribute="top" secondItem="spQ-Vk-1yE" secondAttribute="top" id="l5o-V7-kVQ"/>
+                                </constraints>
+                                <size key="customSize" width="180" height="180"/>
+                                <connections>
+                                    <outlet property="commentLabel" destination="2Hc-iX-acu" id="9je-cp-gEQ"/>
+                                    <outlet property="imageView" destination="LgB-02-txS" id="U0H-jm-Xyt"/>
+                                    <outlet property="imageViewHeightLayoutConstraint" destination="MSy-Ex-GWH" id="ZDu-8c-Jad"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="q4d-5m-8l3" id="XME-CX-Ufz"/>
+                            <outlet property="delegate" destination="q4d-5m-8l3" id="vJ8-j9-9Io"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GUP-p0-7Pt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="370" y="663"/>
+        </scene>
+    </scenes>
+</document>

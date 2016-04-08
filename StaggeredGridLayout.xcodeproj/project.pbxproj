@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C95328101C9AA02200C02B8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C953280F1C9AA02200C02B8C /* main.m */; };
+		C95328131C9AA02200C02B8C /* SGLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C95328121C9AA02200C02B8C /* SGLAppDelegate.m */; };
+		C95328191C9AA02200C02B8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95328171C9AA02200C02B8C /* Main.storyboard */; };
+		C953281B1C9AA02200C02B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C953281A1C9AA02200C02B8C /* Assets.xcassets */; };
+		C953281E1C9AA02200C02B8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C953281C1C9AA02200C02B8C /* LaunchScreen.storyboard */; };
+		C953282F1C9AA10F00C02B8C /* SGLPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C95328261C9AA10F00C02B8C /* SGLPostCell.m */; };
+		C95328301C9AA10F00C02B8C /* SGLPost.m in Sources */ = {isa = PBXBuildFile; fileRef = C95328281C9AA10F00C02B8C /* SGLPost.m */; };
+		C95328311C9AA10F00C02B8C /* SGLPostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C953282A1C9AA10F00C02B8C /* SGLPostsViewController.m */; };
+		C95328321C9AA10F00C02B8C /* SGLStaggeredGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C953282C1C9AA10F00C02B8C /* SGLStaggeredGridLayout.m */; };
+		C95328331C9AA10F00C02B8C /* SGLStaggeredGridLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = C953282E1C9AA10F00C02B8C /* SGLStaggeredGridLayoutAttributes.m */; };
+		C95328391C9AA88F00C02B8C /* Posts.json in Resources */ = {isa = PBXBuildFile; fileRef = C95328381C9AA88F00C02B8C /* Posts.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C953280B1C9AA02200C02B8C /* StaggeredGridLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaggeredGridLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C953280F1C9AA02200C02B8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C95328111C9AA02200C02B8C /* SGLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGLAppDelegate.h; sourceTree = "<group>"; };
+		C95328121C9AA02200C02B8C /* SGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGLAppDelegate.m; sourceTree = "<group>"; };
+		C95328181C9AA02200C02B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C953281A1C9AA02200C02B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C953281D1C9AA02200C02B8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C953281F1C9AA02200C02B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95328251C9AA10F00C02B8C /* SGLPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLPostCell.h; sourceTree = "<group>"; };
+		C95328261C9AA10F00C02B8C /* SGLPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLPostCell.m; sourceTree = "<group>"; };
+		C95328271C9AA10F00C02B8C /* SGLPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLPost.h; sourceTree = "<group>"; };
+		C95328281C9AA10F00C02B8C /* SGLPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLPost.m; sourceTree = "<group>"; };
+		C95328291C9AA10F00C02B8C /* SGLPostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLPostsViewController.h; sourceTree = "<group>"; };
+		C953282A1C9AA10F00C02B8C /* SGLPostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLPostsViewController.m; sourceTree = "<group>"; };
+		C953282B1C9AA10F00C02B8C /* SGLStaggeredGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLStaggeredGridLayout.h; sourceTree = "<group>"; };
+		C953282C1C9AA10F00C02B8C /* SGLStaggeredGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLStaggeredGridLayout.m; sourceTree = "<group>"; };
+		C953282D1C9AA10F00C02B8C /* SGLStaggeredGridLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLStaggeredGridLayoutAttributes.h; sourceTree = "<group>"; };
+		C953282E1C9AA10F00C02B8C /* SGLStaggeredGridLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLStaggeredGridLayoutAttributes.m; sourceTree = "<group>"; };
+		C95328381C9AA88F00C02B8C /* Posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Posts.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C95328081C9AA02200C02B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C95328021C9AA02200C02B8C = {
+			isa = PBXGroup;
+			children = (
+				C953280D1C9AA02200C02B8C /* StaggeredGridLayout */,
+				C953280C1C9AA02200C02B8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C953280C1C9AA02200C02B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C953280B1C9AA02200C02B8C /* StaggeredGridLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C953280D1C9AA02200C02B8C /* StaggeredGridLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C95328171C9AA02200C02B8C /* Main.storyboard */,
+				C95328111C9AA02200C02B8C /* SGLAppDelegate.h */,
+				C95328121C9AA02200C02B8C /* SGLAppDelegate.m */,
+				C95328271C9AA10F00C02B8C /* SGLPost.h */,
+				C95328281C9AA10F00C02B8C /* SGLPost.m */,
+				C95328291C9AA10F00C02B8C /* SGLPostsViewController.h */,
+				C953282A1C9AA10F00C02B8C /* SGLPostsViewController.m */,
+				C95328251C9AA10F00C02B8C /* SGLPostCell.h */,
+				C95328261C9AA10F00C02B8C /* SGLPostCell.m */,
+				C953282B1C9AA10F00C02B8C /* SGLStaggeredGridLayout.h */,
+				C953282C1C9AA10F00C02B8C /* SGLStaggeredGridLayout.m */,
+				C953282D1C9AA10F00C02B8C /* SGLStaggeredGridLayoutAttributes.h */,
+				C953282E1C9AA10F00C02B8C /* SGLStaggeredGridLayoutAttributes.m */,
+				C953280E1C9AA02200C02B8C /* Supporting Files */,
+			);
+			path = StaggeredGridLayout;
+			sourceTree = "<group>";
+		};
+		C953280E1C9AA02200C02B8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C953280F1C9AA02200C02B8C /* main.m */,
+				C953281F1C9AA02200C02B8C /* Info.plist */,
+				C953281C1C9AA02200C02B8C /* LaunchScreen.storyboard */,
+				C953281A1C9AA02200C02B8C /* Assets.xcassets */,
+				C95328381C9AA88F00C02B8C /* Posts.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C953280A1C9AA02200C02B8C /* StaggeredGridLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C95328221C9AA02200C02B8C /* Build configuration list for PBXNativeTarget "StaggeredGridLayout" */;
+			buildPhases = (
+				C95328071C9AA02200C02B8C /* Sources */,
+				C95328081C9AA02200C02B8C /* Frameworks */,
+				C95328091C9AA02200C02B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaggeredGridLayout;
+			productName = StaggeredGridLayout;
+			productReference = C953280B1C9AA02200C02B8C /* StaggeredGridLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C95328031C9AA02200C02B8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SGL;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Shingo Hiraya";
+				TargetAttributes = {
+					C953280A1C9AA02200C02B8C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C95328061C9AA02200C02B8C /* Build configuration list for PBXProject "StaggeredGridLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C95328021C9AA02200C02B8C;
+			productRefGroup = C953280C1C9AA02200C02B8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C953280A1C9AA02200C02B8C /* StaggeredGridLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C95328091C9AA02200C02B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C953281E1C9AA02200C02B8C /* LaunchScreen.storyboard in Resources */,
+				C95328391C9AA88F00C02B8C /* Posts.json in Resources */,
+				C953281B1C9AA02200C02B8C /* Assets.xcassets in Resources */,
+				C95328191C9AA02200C02B8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C95328071C9AA02200C02B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95328331C9AA10F00C02B8C /* SGLStaggeredGridLayoutAttributes.m in Sources */,
+				C95328301C9AA10F00C02B8C /* SGLPost.m in Sources */,
+				C95328131C9AA02200C02B8C /* SGLAppDelegate.m in Sources */,
+				C95328321C9AA10F00C02B8C /* SGLStaggeredGridLayout.m in Sources */,
+				C953282F1C9AA10F00C02B8C /* SGLPostCell.m in Sources */,
+				C95328101C9AA02200C02B8C /* main.m in Sources */,
+				C95328311C9AA10F00C02B8C /* SGLPostsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C95328171C9AA02200C02B8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95328181C9AA02200C02B8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C953281C1C9AA02200C02B8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C953281D1C9AA02200C02B8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C95328201C9AA02200C02B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C95328211C9AA02200C02B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C95328231C9AA02200C02B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StaggeredGridLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.StaggeredGridLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C95328241C9AA02200C02B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StaggeredGridLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.StaggeredGridLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C95328061C9AA02200C02B8C /* Build configuration list for PBXProject "StaggeredGridLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95328201C9AA02200C02B8C /* Debug */,
+				C95328211C9AA02200C02B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C95328221C9AA02200C02B8C /* Build configuration list for PBXNativeTarget "StaggeredGridLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95328231C9AA02200C02B8C /* Debug */,
+				C95328241C9AA02200C02B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C95328031C9AA02200C02B8C /* Project object */;
+}
